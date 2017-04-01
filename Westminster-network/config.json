@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Benjamin Cooley"
+  },
+  "text": {
+    "more": "To better understand how people use the social network in times of chaos, I sifted through a sample of 50,000 tweets sent out over a 30 minute time period. These tweets were sent just one hour after the attacker began his deadly drive across Westminster Bridge. Each color on the graphic represents a different community of tweets relating to the attack. A node can connect to two different colors, but is colored based on its original source tweet. The lines represents retweets of original tweets sent by one account.  ",
+    "intro": "Network graph of how news of the Westminster attack spread on Twitter.",
+    "title": "How terror spreads: Twitter responding one hour after the Wesmintster Attack"
+  },
+  "legend": {
+    "edgeLabel": "relation",
+    "colorLabel": "community",
+    "nodeLabel": "person"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
